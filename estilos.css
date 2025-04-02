@@ -1,0 +1,140 @@
+body {
+    background-color: #F0F0F0;
+    font-family: Arial;
+    text-align: center;
+}
+
+header {
+    background: #F0F0F0;
+    color: #000;
+    text-align: center;
+}
+
+nav { /* navegação da página */
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+div p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+ul { /*ul do about*/
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    color: #555;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer { /* rodapé */
+    background: #E5E5E5;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+#projetos {
+    text-align: left;
+}
+
+#projetos h3 {
+    color: #555;
+    font-size: 22px;
+}
+
+#projetos h4 {
+    font-size: 20;
+}
+
+#contatos {
+    text-align: left;
+}
+
+#linkedin {
+    text-align: left;
+}
+
+#linkedin ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+#linkedin li a {
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+#linkedin li a:hover {
+    color: grey;
+}
+
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+
+
